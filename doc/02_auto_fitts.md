@@ -1,4 +1,4 @@
-# Exercise 2 — Robot Fitts’ Law (Autonomous Control Only)
+# Task 2 — Robot Fitts’ Law (Autonomous Control Only)
 
 ## How to run
 
@@ -10,7 +10,7 @@
 
 ---
 
-# Notebook 2 — Robot Fitts’ Law (Autonomous Control Only)
+# Script 2 — Robot Fitts’ Law (Autonomous Control Only)
 
 **Goal:** Benchmark an autonomous controller using the same Fitts-style targets.
 
@@ -18,5 +18,5 @@
 ## 3–4. Autonomous reaching + data collection
 
 Prompts:
-- How does the controller behave for small W?
+- How does the controller behave for small W? large D?
 - What assumptions does it make about dynamics/noise?
