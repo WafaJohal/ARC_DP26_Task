@@ -19,9 +19,9 @@ pip install -r requirements.txt
 ### Run an script
 
 ```bash
-python 01_human_fitts.py
-python 02_auto_fitts.py
-python 03_shared_control.py
+python src/01_human_fitts.py
+python src/02_auto_fitts.py
+python src/03_shared_control.py
 ```
 
 Each script opens an interactive Matplotlib window.
@@ -30,8 +30,8 @@ Each script opens an interactive Matplotlib window.
 
 Files:
 
-- 01_human_fitts.py
-- 01_human_fitts.md
+- `src/01_human_fitts.py`
+- `doc/01_human_fitts.md`
 
 Collect movement-time data yourself and verify Fitts’ Law.
 
@@ -41,8 +41,8 @@ Collect movement-time data yourself and verify Fitts’ Law.
 
 Files:
 
-- 02_auto_fitts.py
-- 02_auto_fitts.md
+- `src/02_auto_fitts.py`
+- `doc/02_auto_fitts.md`
 
 Run an automated controller and compare to human behavior.
 
@@ -52,8 +52,8 @@ Run an automated controller and compare to human behavior.
 
 Files:
 
-- 03_shared_control.py
-- 03_shared_control.md
+- `src/03_shared_control.py`
+- `doc/03_shared_control.md`
 
 Blend human and automation. Adjust assistance and analyze trade-offs.
 
@@ -61,56 +61,66 @@ Blend human and automation. Adjust assistance and analyze trade-offs.
 
 Propose adaptive shared control
 
----
 
-## 🧠 Background: Fitts’ Law
+
+## Background: Fitts’ Law
 
 MT = a + b log(D/W + 1)
 
 Where:
 
-- MT = movement time
-- D = distance
-- W = target width
-- ID = index of difficulty
+- **MT** = movement time
+- **D** = distance (amplitude)
+- **W** = target width
+- **ID** = index of difficulty
 
-Movement time scales approximately linearly with ID.
+Movement time scales approximately linearly with **ID**.
 
 ---
 
-## 📄 Notes on the original paper
+## 📄 Originating paper
 
-Paul Fitts (1954) framed pointing as an information channel:
+These exercises are inspired by:
 
-- Speed–accuracy tradeoff
-- Logarithmic difficulty scaling
-- Linear MT vs ID
-- Throughput measured in bits/second
+**Pan et al., “Using Fitts’ Law to Benchmark Assisted Human-Robot Performance,” arXiv:2412.05412 (2024)** [paper](doc/paper.pdf)
 
-Your collected data should reproduce this relationship.
+```bibtex
+@inproceedings{pan2025using,
+  title={Using Fitts' Law to Benchmark Assisted Human-Robot Performance},
+  author={Pan, Jiahe and Eden, Jonathan and Oetomo, Denny and Johal, Wafa},
+  booktitle={2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={203--212},
+  year={2025},
+  organization={IEEE}
+}
+```
 
 ---
 
 ## 🛠️ Repo structure
 
-```bash
+```text
 .
 ├── requirements.txt
-├──| arm_utils.py
-├── 
-├── 01_human_fitts.py
-├── 01_human_fitts.md
-├── 02_auto_fitts.py
-├── 02_auto_fitts.md
-├── 03_shared_control.py
-└── 03_shared_control.md
+├── README.md
+├── src
+│   ├── arm_utils.py
+│   ├── 01_human_fitts.py
+│   ├── 02_auto_fitts.py
+│   └── 03_shared_control.py
+└── doc
+    ├── 01_human_fitts.md
+    ├── 02_auto_fitts.md
+    ├── 03_shared_control.md
+    └── paper.pdf
 ```
 
 ---
 
 ## 💡 Tips
 
-- Run multiple trials
+- Read the paper
+- Run the code; multiple trials
 - Save CSV results
 - Plot MT vs ID
 - Compare human vs autonomous throughput
