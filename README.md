@@ -1,9 +1,7 @@
 # 🎯 Fitts’ Law Interactive Exercises — Human, Auto, and Shared Control
 
-
 This repository contains a set of interactive exercises designed to explore Fitts’ Law as a practical tool for benchmarking human and shared human-robot performance. Through three progressively structured tasks: human-only control, autonomous control, and shared control, you will experimentally measure how task difficulty, movement time, and robot assistance interact. The exercises are inspired by Pan et al. (2024) (see [paper](doc/paper.pdf)).
 By reproducing simplified versions of the experiments in Python, you will both validate the classic model and investigate how autonomy changes the relationship between difficulty and performance.
-
 
 ## Goals
 
@@ -11,7 +9,6 @@ By reproducing simplified versions of the experiments in Python, you will both v
 - Collect human performance data
 - Observe autonomous controllers compare to humans
 - Observed simple shared-control between human and automation
-
 
 ## 🚀 Quick start
 
@@ -40,8 +37,6 @@ Files:
 
 Collect movement-time data yourself and verify Fitts’ Law.
 
----
-
 ### Task 2 — Autonomous control
 
 Files:
@@ -50,8 +45,6 @@ Files:
 - `doc/02_auto_fitts.md`
 
 Run an automated controller and compare to human behavior.
-
----
 
 ### Task 3 — Shared control
 
@@ -66,8 +59,6 @@ Blend human and automation. Adjust assistance and analyze trade-offs.
 
 Propose adaptive shared control
 
-
-
 ## Background: Fitts’ Law
 
 MT = a + b log(D/W + 1)
@@ -80,8 +71,6 @@ Where:
 - **ID** = index of difficulty
 
 Movement time scales approximately linearly with **ID**.
-
----
 
 ## 📄 Originating paper
 
@@ -100,8 +89,6 @@ These exercises are inspired by:
 }
 ```
 
----
-
 ## 🛠️ Repo structure
 
 ```text
@@ -119,8 +106,6 @@ These exercises are inspired by:
     ├── 03_shared_control.md
     └── paper.pdf
 ```
-
----
 
 ## 💡 Tips
 
