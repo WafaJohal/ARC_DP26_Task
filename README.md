@@ -32,7 +32,7 @@ Each script opens an interactive Matplotlib window.
 
 Files:
 
-- [`src/01_human_fitts.py`](src/01_human_fitts.py}
+- [`src/01_human_fitts.py`](src/01_human_fitts.py)
 - [`doc/01_human_fitts.md`](doc/01_human_fitts.md)
 
 Collect movement-time data yourself and verify Fitts’ Law.
@@ -41,8 +41,8 @@ Collect movement-time data yourself and verify Fitts’ Law.
 
 Files:
 
-- `src/02_auto_fitts.py`
-- `doc/02_auto_fitts.md`
+- [`src/02_auto_fitts.py`](src/02_auto_fitts.py)
+- [`doc/02_auto_fitts.md`](doc/02_auto_fitts.md)
 
 Run an automated controller and compare to human behavior.
 
@@ -50,8 +50,8 @@ Run an automated controller and compare to human behavior.
 
 Files:
 
-- `src/03_shared_control.py`
-- `doc/03_shared_control.md`
+- [`src/03_shared_control.py`](src/03_shared_control.py)
+- [`doc/03_shared_control.md`](doc/03_shared_control.md)
 
 Blend human and automation. Adjust assistance and analyze trade-offs.
 
