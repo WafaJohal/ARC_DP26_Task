@@ -1,4 +1,4 @@
-# Exercise 1 — Human Fitts’ Law (Teleoperation Only)
+# Task 1 — Human Fitts’ Law (Teleoperation Only)
 
 ## How to run
 
@@ -11,7 +11,7 @@
 
 ---
 
-# Notebook 1 — Human Fitts’ Law (Teleoperation Only)
+# Script 1 — Human Fitts’ Law (Teleoperation Only)
 
 **Goal:** Understand Fitts’ Law through **human-controlled** reaching.
 
@@ -53,11 +53,11 @@ Run the next cells to define the arm and visualization.
 - Keep posture / mouse sensitivity consistent.
 - If something goes wrong, mark fail and redo.
 
-## Student tasks 
+## Todo
 
 1. Run ≥3 trials per condition (more is better).
 2. Export your CSV.
-3. Create ID vs MT plots **outside this notebook**.
+3. Create ID vs MT plots
 4. Anaylise the results
 5. Reflect: how did W and D change difficulty?
 6. Report on results and your reflection
