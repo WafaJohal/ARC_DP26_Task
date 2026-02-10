@@ -87,7 +87,7 @@ Movement time scales approximately linearly with **ID**.
 
 These exercises are inspired by:
 
-**Pan et al., “Using Fitts’ Law to Benchmark Assisted Human-Robot Performance,” arXiv:2412.05412 (2024)** [paper](doc/paper.pdf)
+**Pan, J., Eden, J., Oetomo, D., Johal, W., “Using Fitts’ Law to Benchmark Assisted Human-Robot Performance“, In Proceedings of the 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI 2025)”** [pdf](doc/paper.pdf)
 
 ```bibtex
 @inproceedings{pan2025using,
