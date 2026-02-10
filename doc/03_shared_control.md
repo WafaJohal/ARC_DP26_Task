@@ -1,4 +1,4 @@
-# Exercise 3 — Shared Control & Blending Policy
+# Task 3 — Shared Control & Blending Policy
 
 ## How to run
 
@@ -12,7 +12,7 @@
 
 ---
 
-# Notebook 3 — Shared Control & Blending Policy
+# Script 3 — Shared Control & Blending Policy
 
 **Goal:** Design and evaluate shared control strategies.
 
