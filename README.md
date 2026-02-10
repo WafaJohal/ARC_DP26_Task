@@ -32,8 +32,8 @@ Each script opens an interactive Matplotlib window.
 
 Files:
 
-- `src/01_human_fitts.py`
-- `doc/01_human_fitts.md`
+- [`src/01_human_fitts.py`](src/01_human_fitts.py}
+- [`doc/01_human_fitts.md`](doc/01_human_fitts.md)
 
 Collect movement-time data yourself and verify Fitts’ Law.
 
