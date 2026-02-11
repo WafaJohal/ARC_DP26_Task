@@ -5,6 +5,8 @@
 1. Install deps: `pip install -r requirements.txt`
 2. Run: `python 01_human_fitts.py`
 
+**Recommendation:** Use VS Code (or a comparable IDE) to run this script.
+
 ## Controls
 - Left-click near the end-effector to grab, drag to move, release to attempt the target.
 - Keyboard: `n` next condition, `p` previous, `r` reset, `a` analyze plot, `s` save CSV, `q` quit.
@@ -34,8 +36,8 @@ ID = \log_2\left(\frac{D}{W}+1\right)
 
 You will measure:
 - **MT**: time from trial start until the EE first enters the target (or timeout)
-- **Success**: reached before timeout
-
+- **Success**: reached to the target before session timeout
+These metrics (along with the task information) are saved to a CSV file in the `/src` folder when you press `s` before closing the visualization.
 
 ## 1. Environment & robot visualization
 Run the next cells to define the arm and visualization.
