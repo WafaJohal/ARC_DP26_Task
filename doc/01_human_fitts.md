@@ -37,7 +37,7 @@ ID = \log_2\left(\frac{D}{W}+1\right)
 You will measure:
 - **MT**: time from trial start until the EE first enters the target (or timeout)
 - **Success**: reached to the target before session timeout
-These metrics (along with the task information) are saved to a CSV file in the `/src` folder when you press `s` before closing the visualization.
+- These metrics (along with the task information) are saved to a CSV file in the `/src` folder when you press `s` before closing the visualization.
 
 ## 1. Environment & robot visualization
 Run the next cells to define the arm and visualization.
