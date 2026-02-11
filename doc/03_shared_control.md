@@ -17,7 +17,7 @@
 **Goal:** Design and evaluate shared control strategies.
 
 You will test:
-- **Fixed blending** \(u = \alpha u_{auto} + (1-\alpha) u_{human}\)
+- **Fixed blending** \(u =  (1-\alpha) u_{auto} + \alpha u_{human}\)
 - **Adaptive blending** \(\alpha(W, D)\) (student task)
 
 
