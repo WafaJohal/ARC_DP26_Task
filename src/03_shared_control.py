@@ -102,7 +102,16 @@ class SharedControlApp:
         # Make room at the bottom for the slider
         self.viz.fig.subplots_adjust(bottom=0.18)
         ax_slider = self.viz.fig.add_axes([0.15, 0.06, 0.7, 0.04])
-        self.alpha_slider = Slider(ax_slider, "alpha", valmin=0.0, valmax=1.0, valinit=0.5)
+        # self.alpha_slider = Slider(ax_slider, "alpha", valmin=0.0, valmax=1.0, valinit=0.5)
+        self.alpha_slider = Slider(
+            ax = ax_slider,
+            label = "alpha", 
+            valmin=0.0, 
+            valmax=1.0, 
+            valinit=0.5,
+            valstep=0.5, # <-- snaps to 0.0, 0.5, 1.0
+            valfmt="%.2f",
+            )
         self.alpha_slider.valtext.set_text("0.50")
 
     def current_condition(self):
